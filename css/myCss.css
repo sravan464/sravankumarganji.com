@@ -68,3 +68,7 @@ footer i:hover{
 ul li{
     text-align: center;
 }
+.progress-span{
+    text-align: right;
+    font-size: large;
+}
