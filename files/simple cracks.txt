@@ -1,0 +1,228 @@
+Simple cracks of computers
+-----------------------------
+1) how to find the a website IP address in command  prompt
+Ans;     windows+R will open the run window then type cmd --> will open the command prompt in windows
+			then type the below coomand there you will find the IP adreess
+			
+			ex : if we want to find out the IP address of www.google.com 
+			
+			command is ==>   tracert www.google.com
+			
+			
+2) Istalling Node JS		
+
+
+	
+3) Updating node JS
+
+http://theholmesoffice.com/node-js-fundamentals-how-to-upgrade-the-node-js-version/
+
+4) using npm you we can install any node module along with vesion
+
+ex:   npm install restify@3.0.3
+
+5) how to find the installed packages versions
+
+ans:  note : some times we use npm ls also
+
+        npm list   -->  gives you list of packages and version locally ( with all the dependencies )
+		
+		npm list --depth=0  --> with out dependencies
+
+
+		npm list -g  --> gives you list of packages and versions globally
+		
+		npm list restify --> gives version of restify module
+		
+6) list all the processes in linux
+ans: ps -A
+	 ps -e
+	
+	Type the following ps command to display all running process:
+    # ps aux | less
+	
+	-A: select all processes
+a: select all processes on a terminal, including those of other users
+x: select processes without controlling ttys
+	
+7) processes on the given port 
+
+ex: 
+sudo netstat -tulpn | grep :8
+tcp        0      0 0.0.0.0:8890            0.0.0.0:*               LISTEN      24301/virtuoso-t
+tcp        0      0 127.0.0.1:8005          0.0.0.0:*               LISTEN      15716/java
+tcp        0      0 0.0.0.0:8009            0.0.0.0:*               LISTEN      15716/java
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      15716/java
+
+8) installing bower with npm 
+====================================
+requirements
+-------------
+git
+nodejs
+npm
+
+
+npm install bower
+
+http://bower.io/
+
+bower usefull commands
+====================
+
+bower init  ==> for bower.json for dependency management
+cd to required directly in application  ==> bower install jquery --save  ==> save will intall local to the applicaiton under bower_components folder 
+
+
+bower install jquery
+bower install jquery#1.10.0
+bower search jquery
+
+npm is mostly used for node modules but using npm we can install all the packages but where as bower is mostly useful for front end technologies . 
+
+after bower installation make sure add path variable of git .
+if you face problems in using bower from windows cmd then use git bash .
+open git bash and type bower install jquery as a test example. it should work .
+
+
+
+
+9) installing a git for windows
+================================
+https://modulesunraveled.com/installing-git/installing-git-windows
+
+check git version ==>  git --version
+
+10) git bash directory color changing
+=========================================
+http://stackoverflow.com/questions/14049896/setting-colors-for-ls-in-git-bash-on-windows
+
+11)ps -wef | grep node
+
+12) how to comment in JSON file :
+ans  : single line comment is //
+		multi line comment     /*  data  */
+		
+		
+13) How many ways to create an object in java
+===============================================
+ans: http://crunchify.com/what-are-all-the-different-ways-to-create-an-object-in-java/
+
+14) nodemon
+================
+npm install nodemon ==>  you need not to restart the application every time	.
+
+15) how to uninstall a dependency using npm?
+===========================================
+ans:
+Use following command to uninstall a module.
+
+C:\Nodejs_WorkSpace>npm uninstall dependency-name
+
+16) How to update a dependency using npm?
+============================================
+ans:
+Update package.json and change the version of the dependency which to be updated and run the following command.
+
+C:\Nodejs_WorkSpace>npm update
+ 
+ 17)Eclipse usefull short cuts
+=================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+1) to show all the short cuts 
+-------------------------
+Ctrl + Shift + L
+
+2) Ctrl+ i  			for fomatting the code .
+3) ctrl + r 			for find the resource(file).
+4) ctrl + shift + o     for import optimization
+5) alt + shift + z   	for surround the peice of code. 
+6) alt + shift + m		for method extraction ==> surrounded a peice of code in a method
+7) alt + arrow keys  	for moving up and down a piece of a code .
+8) ctrl + shift + u 	for all the occurances of selected word with in the class
+9) open tasks and write something after TODO in your code thats shows up in tasks tab so that you can make a reminder kind of thing
+10) 
+=====================
+=========================================================================================================================================================
+=========================================================================================================================================================
+
+
+
+18)  There are No resources that can be added or removed from the server in eclipse
+
+ans: Right Click on Project->Go to Properties->Select Project Facets from left navigation. 
+If it is not open...click on the link, Check the Dynamic Web Module Check Box and select the respective version (Probably 2.4).
+ Click on Apply Button and then Click on OK.
+ 
+ 19) web.xml is missing and <failOnMissingWebXml> is set to true in eclipse
+ ans: Right click on Deployment Descriptor in Project Explorer.
+Select Generate Deployment Descriptor Stub.
+It will generate WEB_INF folder in src/main/webapp and an web.xml in it.
+
+20)  Java compiler level does not match the version of the installed Java project facet.
+
+Ans: showView -> navigator -> settings -> org.eclipse.est.common.project.facet.core.xml -> change the java version to 1.6 or 1.5 according to other values in other xml files.
+
+21) simple maven skelton for spring_MVC
+ans)
+https://github.com/bh5k/spring_mvc_base
+
+22)  gulp setup
+
+ans: 
+
+Install gulp globally.
+
+npm install -g gulp
+
+Install gulp locally in the project.
+
+npm install gulp
+
+Add below line in your package.json
+
+"scripts": {
+      "gulp": "gulp"
+ }
+
+Run gulp.
+
+npm run gulp
+
+
+23)  run ant build script from command line
+-------------------------------------------------
+"c:\directory\where\ant\is\ant" -buildfile "d:\directory\where\your\build.xml\is\"
+
+24) execute all the .exe files under a directory
+---------------------------------------------------
+
+4
+down vote
+accepted
+for /r "." %%a in (*.exe) do start "" "%%~fa"
+This will start all the executable files under the current folder and subfolders. Change the reference to the current folder (".") to your needs.
+
+shareimprove this answer
+
+
+25) http://stackoverflow.com/questions/24027551/gulp-command-not-found-error-after-installing-gulp
+
+26) JMS Flow (Active MQ)
+connectionFactory -> connection -> session -> producer/consumer -> send/receive 
+
+27) to run grunt or gulp or any global node modules from command prompt 
+=======================================================================
+add system environment variable
+
+NODE_PATH =   C:\Users\sravan\AppData\npm\node_modules
+
+and  add this in path
+C:\Users\sravan\AppData\Roaming\npm
+
+
+26) super usefull npm build server and auto build server
+===========================================================
+npm install -g http-server
+npm install -g live-server
