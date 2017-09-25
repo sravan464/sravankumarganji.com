@@ -1,0 +1,146 @@
+﻿best reference video for sublimetext
+----------------------------
+https://www.youtube.com/watch?v=zVLJfrIwEP8&index=37&list=WL
+
+Sublime text 3 - short cuts and tricks 
+
+some usefull packages for sublime
+
+->install sublime package manager
+->copy sublime text package manager code from website(https://packagecontrol.io/installation) and paste it in console of sublime
+->then press Ctrl + Shift+ p-->(this is the short cut for package manager) --> then type install package manager (repeat this step when ever you need new package to be installed )
+->install from package manager -->predawn for nice look and folder changes 
+->install from PM --> bracket highlighter
+->install form PM --> side bar enhancement (This is for when you right click on any folder or file you ll get more options )
+->install form PM --> sublimeCodeIntel intellisence
+->install form PM --> Emmet (short cuts for html and CSS )
+->install form PM --> sublimelinter 
+->install form PM --> sublimelinter-jsHint
+->install form PM --> sublimelinter-CSSHint
+->install form PM --> angular
+
+------> if you want to remove package === >   Ctrl + Shift + p ===> type ==>remove package >> click on enter you will get 
+
+
+1) Multi Cursor :   as many cursors as u want with Ctrl + add 
+2) build the program =====  Ctrl + B  
+3) Snippets
+4) sinle line comment ====  "Ctrl + / " is for commenting and uncommenting 
+5) multi line comment ====  "Ctrl + shift / "
+
+
+
+angular with sublime (seach in google as "angular-ui/anguarjs-sublime-packages")
+==========================
+use short cuts for angular in sublime (KEY MAPS)refer the link 
+https://www.youtube.com/watch?v=h727dMgvj1Q
+
+
+
+Package Control can be installed from here:
+http://wbond.net/sublime_packages/pac...
+
+To install a Sublime "package" with PackageControl:
+1. Ctrl+Shift+P
+2. Start typing "pack inst", and from the list choose "Package Control: Install Package".
+3. Wait a moment and it will list non-installed packages. Select the one you want, press Enter and wait a few seconds. (Press Esc or click away to cancel.)
+
+----------------------------------------­---------------------------------
+
+Alan's favorite packages in alphabetic order:
+[links provided to read more but you should install them from PackageControl.]
+
+- ALIGNMENT:
+http://wbond.net/sublime_packages/ali...
+Aligns your text so your multi-cursors form a straight line. Good if you have alignment OCD.
+
+- BRACKETHIGHLIGHTER:
+https://github.com/facelessuser/Brack...
+Highlights brackets while you're typing between them. Super useful!
+
+- CHANGEQUOTES:
+https://github.com/colinta/SublimeCha...
+Easy, quick way to change single quotes to double quotes and vice-versa.
+
+- CODE FOO:
+https://github.com/markandey/codefoo
+Type a question, highlight it, Ctrl+Alt+R and it will search Stackoverflow,
+take the first match, find the best rated response's code snippet and paste that back
+into where you typed the question. Pure magic!! :p
+
+- FILEDIFFS:
+https://github.com/colinta/SublimeFil...
+Fantastic diff'ing tools, all accessible from the rightclick menu and command panel. (Ctrl+Shift+P)
+
+- FILESYSTEM AUTOCOMPLETION:
+https://github.com/lingo/sublime-fsco...
+If you're typing text to a real path and press Tab, it will autocomplete it. Handy sometimes.
+
+- GIT:
+https://github.com/kemayo/sublime-tex...
+There are many git packages; this one works for me. You may need to install Git beforehand.
+
+- GITGUTTER:
+https://github.com/jisaacks/GitGutter
+Shows markers to show changes against the git HEAD state, in realtime! Best invention since sliced bread. I love this thing.
+
+- INDENT XML:
+https://github.com/alek-sys/sublimete...
+Indents XML nicely, so us humans can read it better.
+
+- PRETTY JSON:
+https://github.com/dzhibas/SublimePre...
+Indents JSON nicely. Accessible from command panel. (Ctrl+Shift+P)
+
+- SNAKE:
+https://github.com/jf8073/sublime-snake
+Teach your code a lesson by playing a round of Snake all over it. (Don't worry, your actual code won't be ruined.)
+
+- SUBLIME-TWEET:
+https://github.com/rozboris/Sublime-T...
+Twitter from Sublime.
+
+- SUBLIMELINTER:
+https://github.com/SublimeLinter/Subl...
+Nice self-contained "linter", to point out syntactic errors and style suggestions next to the line numbers.
+
+- SUPER CALCULATOR:
+https://github.com/Pephers/Super-Calc...
+Type some math in your code and type Alt+c to select it and again to calculate it.
+
+- TRAILINGSPACES:
+https://github.com/SublimeText/Traili...
+Highlights and can also delete trailing empty space.
+
+----------------------------------------­---------------------------------
+
+*** USEFUL HOTKEYS:
+
+Ctrl + ` = open Sublime's own Python console
+Ctrl + Shift + P = command panel
+Ctrl + G = go to line
+Ctrl + R = go to function
+Ctrl + P = go to anything
+
+Ctrl + L = select line
+Ctrl + Shift + L = expand the selected lines to multiple cursors
+Ctrl + Shift + D = duplicate line(s)
+Ctrl + / = comment line(s)
+Ctrl + D = select next substring
+Ctrl + Shift + J = select by indentation level
+
+Ctrl + up/down arrow = scroll line up/down
+Ctrl + K followed by Ctrl + C = center at cursor
+Ctrl + [ or ] = move tab level in/out
+
+Ctrl + J = join lines
+Ctrl + K followed by Ctrl + U or L = upper/lower-case selected text
+Ctrl + K twice = delete from cursor until end of line
+
+F9 = sort selected lines
+F6 = spell check ON/OFF
+F11 = fullscreen
+Shift + F11 = fullscreen "zen" mode
+
+Alt + numbers(1, 2, 3...) = change to specific tab
+Ctrl + pgUp/Down = go to next/previous tab
