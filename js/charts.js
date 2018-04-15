@@ -81,19 +81,20 @@ $(function () {
 
         var data = google.visualization.arrayToDataTable([
           ['Skills', 'Skill Set', 'Year of Exp'],
-          ['HTML',9.0,8.0],
-          ['CSS', 8.0, 8.0],
-          ['JavaScript(<ES6)', 8.5, 7.0],
-          ['JavaScript(ES6)', 8.0, 2.0],
-          ['Jquery', 9.0, 8.0],
-          ['AJAX', 8.0, 7.0],
+          ['HTML',9.0,5.0],
+          ['CSS', 8.0, 5.0],
+          ['JS(ES5)', 9.0, 7.0],
+          ['JS(ES6)', 9.0, 2.0],
+          ['Jquery', 9.0, 5.0],
+          ['AJAX', 8.0, 5.0],
           ['AngularJS', 8.0, 3.0],
-          ['ReactJS', 7.0, 1.0],
-          ['NodeJs', 7.0, 2.0],
-          ['Java', 8.0, 8.0],
-          ['RestFul', 9.0, 8.0],
-          ['NO Sql(MongoDB)', 7.5, 3.0],
-          ['RDBMS(oracle/sql)', 8.0, 6.5]
+          ['ReactJS', 9.0, 1.5],
+          ['NodeJs', 7.0, 3.0],
+          ['Java', 8.0, 4.0],
+          ['RestFul', 9.0, 4.0],
+          ['NO Sql', 7.5, 3.0],
+          ['RDBMS', 8.0, 5.0],
+          ['AWS', 6.0, 2.0]
 
         ]);
 
